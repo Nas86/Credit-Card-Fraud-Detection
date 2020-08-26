@@ -20,7 +20,8 @@ The Credit Card Fraud Detection Problem includes modeling past credit card trans
 ## Results and recommendations
 I investigated the data, checking for data unbalancing, visualizing the features and understanding the relationship between different features. We then investigated 5 predictive models. The data was split in 2 parts, a train set and a test set. For the first three models, I used the Randomized Search and Adaboosting method.
 
-<img src="Picture/corr.png">
+<img src="/Picture/corr.png">
+
 Good prediction results can be achieved with imbalanced datasets as well as with balanced ones
 Random Forest Classifiers has the best results being able to detect 70% fraud transactions and at the same time not classifying a lot of normal transactions as fraud
 For testing data, Logistic regression and Supper vector Machine have the worst AUC among all the models. (AUC=50%), While the Random Forest has the highest AUC. (AUC=95%)
