@@ -22,7 +22,7 @@ I investigated the data, checking for data unbalancing, visualizing the features
 
 <img src="/Picture/dis_time_amount.png">
 <img src="/Picture/corr.png">
-<img src="/Picture/dis.png">
+<img src="/Picture/dis.png"> 
 
 Good prediction results can be achieved with imbalanced datasets as well as with balanced ones
 Random Forest Classifiers has the best results being able to detect 70% fraud transactions and at the same time not classifying a lot of normal transactions as fraud
